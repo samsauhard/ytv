@@ -33,3 +33,5 @@ COPY ./urls.txt .
 RUN npm install
 
 CMD ["node", "index" ,"--color=16m"]
+RUN npm run build 
+RUN npm start ytview=5
